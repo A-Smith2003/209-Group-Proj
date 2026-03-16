@@ -14,5 +14,5 @@ CIS 209 Spring 2026 - Group Project (Business Name: )
 - [ ] CSS
 - [ ] JavaScript
 
-## Meet The Developers
-# Anna Smith
+# Meet The Developers
+## Anna Smith
