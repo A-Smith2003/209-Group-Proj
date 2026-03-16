@@ -10,4 +10,6 @@ CIS 209 Spring 2026 - Group Project (Business Name: )
 - [ ] 
 
 ## Technical Requirements
-- [ ] 
+- [ ] HTML
+- [ ] CSS
+- [ ] JavaScript
