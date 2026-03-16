@@ -1,2 +1,13 @@
-# 209-Group-Proj
-CIS 209 group project
+# CIS209-Group-proj
+CIS 209 Spring 2026 - Group Project (Business Name: )
+
+## Business Description
+
+## Wireframe
+![Wireframe]()
+
+## System Requirements
+- [ ] 
+
+## Technical Requirements
+- [ ] 
