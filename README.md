@@ -16,4 +16,4 @@ CIS 209 Spring 2026 - Group Project (Business Name: )
 
 # Meet The Developers
 ## Anna Smith
-My name is Anna Smith. My personality type is INTJ-A.I'm an aspiring developer who has an interest in frontend development. My skills lie primarily within CSS, HTML, and JavaScript.
+My name is Anna Smith. My personality type is INTJ-A. I'm an aspiring developer who has an interest in frontend development. My skills lie primarily within CSS, HTML, and JavaScript.
