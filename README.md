@@ -22,3 +22,8 @@ My name is Anna Smith. My personality type is INTJ-A. I'm an aspiring developer 
 - area of interest: coding
 - personality: INTP-A
 - short bio: currently working in cybersecurity. My strengths for this project are mainly in HTML
+
+  ## Marisol Rodriguez
+- area of interest: cyber security and software development
+- Personality: INTJ-A
+- Short Bio: My major is currently in cyber security, but I am also trying to major in software development. My skills are CSS, HTML, and JavaScript.
