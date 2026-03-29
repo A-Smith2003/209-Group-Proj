@@ -41,10 +41,6 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - Personality: INTJ-A
 - Brief explanation of my personality trait: People with the INTJ personality type (Architects) are intellectually curious individuals with a deep-seated thirst for knowledge. INTJs tend to value creative ingenuity, straightforward rationality, and self-improvement. They consistently work toward enhancing intellectual abilities and are often driven by an intense desire to master any and every topic that piques their interest.
 - Short Bio: My major is currently in cyber security, but I am also trying to major in software development. My skills are CSS, HTML, and JavaScript.
-
-## System Requirements
-- [ ]
-
 ## Technical Requirements
 - [ ] Html
 - [ ] Javascript
