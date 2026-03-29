@@ -14,11 +14,12 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - [ ] HTML
 - [ ] CSS
 - [ ] JavaScript
+
 ### Hosting
-- [ ] GitHub Pages
+- GitHub Pages
 
 ## System Requirements
-- [ ] Coding software like VScode
+- Coding software like VScode
 
 ##Project Scope
 - Pages for the hyperlinks Home, Categories, and Best Sellers
