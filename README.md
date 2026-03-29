@@ -26,7 +26,9 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 
 # Meet The Developers
 ## Anna Smith
-My name is Anna Smith. My personality type is INTJ-A. I'm an aspiring developer who has an interest in frontend development. My skills lie primarily within CSS, HTML, and JavaScript.
+- area of interest: Cybersecurity and web development
+- personality: INTJ-A
+-  short bio: aspiring developer in frontend development and cybersecurity. Skills lie primarily within CSS, HTML, and JavaScript.
 
 ## Ryan Lovvorn
 - area of interest: coding
