@@ -11,8 +11,8 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 
 ## Technical Requirements
 ### Languages
-- [ ] HTML
-- [ ] CSS
+- [X] HTML
+- [X] CSS
 - [ ] JavaScript
 
 ### Hosting
