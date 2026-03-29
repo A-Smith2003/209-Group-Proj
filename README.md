@@ -9,13 +9,20 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 ## Wireframe
 ![Wireframe](https://github.com/A-Smith2003/209-Group-Proj/blob/main/ElephantBookStoreWireFrame.png)
 
-## System Requirements
-- [ ] 
-
 ## Technical Requirements
+### Languages
 - [ ] HTML
 - [ ] CSS
 - [ ] JavaScript
+### Hosting
+- [ ] GitHub Pages
+
+## System Requirements
+- [ ] Coding software like VScode
+
+##Project Scope
+- Pages for the hyperlinks Home, Categories, and Best Sellers
+- Cart function with a hyperlink to a checkout page
 
 # Meet The Developers
 ## Anna Smith
