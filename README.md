@@ -21,7 +21,7 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 ## System Requirements
 - Coding software like VScode
 
-##Project Scope
+## Project Scope
 - Pages for the hyperlinks Home, Categories, and Best Sellers
 - Cart function with a hyperlink to a checkout page
 
