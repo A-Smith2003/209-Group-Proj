@@ -36,7 +36,7 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - personality: INTP-A
 - short bio: currently working in cybersecurity. My strengths for this project are mainly in HTML
 
-  ## Marisol Rodriguez
+## Marisol Rodriguez
 - area of interest: cyber security and software development
 - Personality: INTJ-A
 - Brief explanation of my personality trait: People with the INTJ personality type (Architects) are intellectually curious individuals with a deep-seated thirst for knowledge. INTJs tend to value creative ingenuity, straightforward rationality, and self-improvement. They consistently work toward enhancing intellectual abilities and are often driven by an intense desire to master any and every topic that piques their interest.
