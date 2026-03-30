@@ -14,6 +14,7 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - [X] HTML
 - [X] CSS
 - [ ] JavaScript
+- [ ] Hosted on Github pages
 
 ### Hosting
 - GitHub Pages
@@ -43,8 +44,3 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - Short Bio: My major is currently in cyber security, but I am also trying to major in software development. My skills are CSS, HTML, and JavaScript.
 ## Team Personality Reflection
 INTP-A and INTJ-A personality types have been known to work very well in collaborations as both types are known for their introverted and analytical thnking processes. This can create strong proffessional synergy as long as roles are delegated appropriately. Since INTP's are more known for communicating in hypotheticals and possibilities where as INTJ's are more commonly known for more staright forward decisiveness, INTP's are generally better at handling the idea vetting and analysis parts prior to implementation where as the INTJ's are great at taking that information and blending it into a strategic framework.
-## Technical Requirements
-- [ ] Html
-- [ ] Javascript
-- [ ] css
-- [ ] Hosted on Github pages
