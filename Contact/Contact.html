@@ -1,81 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Categories - Elephant Bookstore</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <img
-        src="imgs/elephantBookstoreLogo.jpg"
-        alt="Elephant Bookstore Logo"
-        class="logo"
-      />
 
-      <div class="nav-links">
-        <a href="../index.html">Home</a>
-        <a href="../Categories/categories.html">Categories</a>
-        <a href="../Best Sellers/index.html">Best Sellers</a>
-        <a href="Contact.html">Contact</a>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="device-width" initial-scale="1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Contact- elephant Bookstore</title>
+</head>
+<!-- Navigation bar with logo, navigation links, and search bar: -->
+<nav class="navbar">
+  <img src="imgs/elephantBookstoreLogo.jpg" alt="Elephant Bookstore Logo" class="logo" />
 
-      <!--Cart here-->
-      <a href="../Cart/Cart.html">
-      <img src="imgs/Cart.png" alt="carticon" class="cart"/>
-      </a>
+  <!-- Navigation links: Home, Categories, Best Sellers, Contact: -->
+  <div class="nav-links">
+    <a href="../index.html">Home</a>
+    <a href="../Categories/categories.html">Categories</a>
+    <a href="../Best Sellers/index.html">Best Sellers</a>
+    <a href="#">Contact</a>
 
-      <div class="search-container">
-        <input type="text" placeholder="Search..." />
-        <button type="submit" class="submit">
-          <img
-            src="imgs/vecteezy_gold-search-icon_11947139.png"
-            alt="search-icon"
-            class="search-icon"
-          />
-        </button>
-      </div>
-    </nav>
+  </div>
+
+  <!--Cart here-->
+  <a href="../Cart/Cart.html">
+    <img src="imgs/Cart.png" alt="carticon" class="cart" />
+  </a>
+  <!-- Search bar with gold color search icon png: -->
+  <div class="search-container">
+    <input type="text" placeholder="Search..." />
+    <button type="submit" class="submit">
+      <img src="imgs/vecteezy_gold-search-icon_11947139.png" alt="search-icon" class="search-icon" />
+    </button>
+  </div>
+</nav>
 <!--Columns grid start-->
-    <div class="grid-container">
+<div class="grid-container">
+  <!--Columns grid start-->
+  <div class="grid-container">
 
-      <!--Column 1-->
-      <div class="column1">
-      </div>
-
-      <!--Column 2-->
-      <div class="column2">
-        
-      </div>
-
-      <!--Column 3-->
-      <div class="column3">
-      </div>
-
+    <!--Column 1-->
+    <div class="column1">
     </div>
 
-    <!--Columns End-->
-    <footer>
-      <p class="white-p-text">
-        &copy;2012 Elephant Bookstore. All rights reserved.
-      </p>
+    <!--Column 2-->
+    <div class="column2">
+      <section class="input-label">
+        <h2>Contact Information</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter a password">
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <section id="resultContainer" style="display:none;">
+        <h2> Submitted Information </h2>
+        <table id="resultTable">
+          <thead>
+            <tr>
+              <th>Field</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Javascript will add more rows! -->
+          </tbody>
+        </table>
+      </section>
+    </div>
 
-      <h3>Contact</h3>
-      <p class="white-p-text">
-        <a href="tel:+12565550123">📞 (256) 555-0123</a>
-      </p>
-      <p class="white-p-text">
-        <a href="mailto:support@elephantbookstore.com">✉ Customer Service</a>
-      </p>
-      <p>
-        <a href="mailto:info@elephantbookstore.com">📧 info@elephantbookstore.com</a>
-      </p>
+    <!--Column 3-->
+    <div class="column3">
+    </div>
+  </div>
+</div>
 
-      <h3>Locations</h3>
-      <p class="white-p-text">123 Main Street, Muscle Shoals, Alabama 35661</p>
 
-      <p class="white-p-text"><a href="#">Privacy Policy</a></p>
-    </footer>
-  </body>
+<!--Columns End-->
+<footer>
+  <p class="white-p-text">
+    &copy;2012 Elephant Bookstore. All rights reserved.
+  </p>
+
+  <h3>Contact</h3>
+  <p class="white-p-text">
+    <a href="tel:+12565550123">📞 (256) 555-0123</a>
+  </p>
+  <p class="white-p-text">
+    <a href="mailto:support@elephantbookstore.com">✉ Customer Service</a>
+  </p>
+  <p>
+    <a href="mailto:info@elephantbookstore.com">📧 info@elephantbookstore.com</a>
+  </p>
+
+  <h3>Locations</h3>
+  <p class="white-p-text">123 Main Street, Muscle Shoals, Alabama 35661</p>
+
+  <p class="white-p-text"><a href="#">Privacy Policy</a></p>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+
 </html>
