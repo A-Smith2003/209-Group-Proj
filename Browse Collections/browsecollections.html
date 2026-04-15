@@ -4,109 +4,149 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Categories - Elephant Bookstore</title>
+    <title>Browse Collections - Elephant Bookstore</title>
+    <style>
+      /* Cart badge */
+      .cart-icon-wrap { position: relative; display: inline-flex; align-items: center; }
+      .cart-badge {
+        position: absolute; top: -6px; right: 4px;
+        background: #be852c; color: #fff;
+        font-size: 11px; font-weight: 700;
+        width: 18px; height: 18px; border-radius: 50%;
+        display: none; align-items: center; justify-content: center;
+        font-family: Arial, sans-serif;
+      }
+ 
+      /* Add to Cart button */
+      .add-to-cart-btn {
+        margin-top: 8px;
+        padding: 7px 14px;
+        background: #0d1228;
+        color: #ffd97d;
+        border: 1px solid #be852c;
+        border-radius: 5px;
+        font-family: "Times New Roman", serif;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background .2s, color .2s, transform .15s;
+        width: 100%;
+      }
+      .add-to-cart-btn:hover { background: #be852c; color: #fff; transform: translateY(-1px); }
+      .add-to-cart-btn:active { transform: scale(.97); }
+ 
+      .book { display: flex; flex-direction: column; align-items: center; }
+    </style>
   </head>
   <body>
     <nav class="navbar">
-      <img
-        src="imgs/elephantBookstoreLogo.jpg"
-        alt="Elephant Bookstore Logo"
-        class="logo"
-      />
-
+      <img src="imgs/elephantBookstoreLogo.jpg" alt="Elephant Bookstore Logo" class="logo" />
+ 
       <div class="nav-links">
         <a href="../index.html">Home</a>
         <a href="../Categories/categories.html">Categories</a>
         <a href="../Best Sellers/index.html">Best Sellers</a>
         <a href="../Contact/Contact.html">Contact</a>
       </div>
-
-      <!--Cart here-->
-      <a href="./Cart/Cart.html">
-      <img src="imgs/Cart.png" alt="carticon" class="cart"/>
+ 
+      <!-- Cart icon with live badge -->
+      <a href="../Cart/Cart.html" class="cart-icon-wrap">
+        <img src="imgs/Cart.png" alt="carticon" class="cart" />
+        <span id="cart-badge" class="cart-badge">0</span>
       </a>
-
+ 
       <div class="search-container">
         <input type="text" placeholder="Search..." />
         <button type="submit" class="submit">
-          <img
-            src="imgs/vecteezy_gold-search-icon_11947139.png"
-            alt="search-icon"
-            class="search-icon"
-          />
+          <img src="imgs/vecteezy_gold-search-icon_11947139.png" alt="search-icon" class="search-icon" />
         </button>
       </div>
     </nav>
-<!--Columns grid start-->
+ 
+    <!-- Columns grid -->
     <div class="grid-container">
-
-      <!--Column 1-->
+ 
+      <!-- Column 1: J.K. Rowling Collection -->
       <div class="column1">
-  <h2>Author Collection</h2>
-
-  <div class="book">
-    <img src="imgs/Harry Potter.jpg" alt="Harry Potter" />
-    <p>Harry Potter</p>
-  </div>
-
-  <div class="book">
-    <img src="imgs/Fantastic Beasts.jpg" alt="Fantastic Beasts" />
-    <p>Fantastic Beasts</p>
-  </div>
-</div>
-
-      <!--Column 2-->
+        <h2>J.K. Rowling Collection</h2>
+ 
+        <div class="book">
+          <img src="imgs/Harry Potter.jpg" alt="Harry Potter" />
+          <p>Harry Potter</p>
+          <button class="add-to-cart-btn" onclick="addToCart({
+            id:'harry-potter', title:'Harry Potter', author:'J.K. Rowling',
+            cover:'imgs/Harry Potter.jpg'
+          })">+ Add to Cart</button>
+        </div>
+ 
+        <div class="book">
+          <img src="imgs/Fantastic Beasts.jpg" alt="Fantastic Beasts" />
+          <p>Fantastic Beasts</p>
+          <button class="add-to-cart-btn" onclick="addToCart({
+            id:'fantastic-beasts', title:'Fantastic Beasts', author:'J.K. Rowling',
+            cover:'imgs/Fantastic Beasts.jpg'
+          })">+ Add to Cart</button>
+        </div>
+      </div>
+ 
+      <!-- Column 2: Classics -->
       <div class="column2">
-  <h2>Classics</h2>
-
-  <div class="book">
-    <img src="imgs/The Great Gatsby.jpg" alt="The Great Gatsby" />
-    <p>The Great Gatsby</p>
-  </div>
-
-  <div class="book">
-    <img src="imgs/Moby Dick.jpg" alt="Moby Dick" />
-    <p>Moby Dick</p>
-  </div>
-</div>
-
-      <!--Column 3-->
+        <h2>Classics</h2>
+ 
+        <div class="book">
+          <img src="imgs/The Great Gatsby.jpg" alt="The Great Gatsby" />
+          <p>The Great Gatsby</p>
+          <button class="add-to-cart-btn" onclick="addToCart({
+            id:'great-gatsby', title:'The Great Gatsby', author:'F. Scott Fitzgerald',
+            cover:'imgs/The Great Gatsby.jpg'
+          })">+ Add to Cart</button>
+        </div>
+ 
+        <div class="book">
+          <img src="imgs/Moby Dick.jpg" alt="Moby Dick" />
+          <p>Moby Dick</p>
+          <button class="add-to-cart-btn" onclick="addToCart({
+            id:'moby-dick', title:'Moby Dick', author:'Herman Melville',
+            cover:'imgs/Moby Dick.jpg'
+          })">+ Add to Cart</button>
+        </div>
+      </div>
+ 
+      <!-- Column 3: Stephen King Collection -->
       <div class="column3">
-  <h2>Author Collection</h2>
-        
-  <div class="book">
-    <img src="imgs/It.jpg" alt="It by Stephen King" />
-    <p>It</p>
-  </div>
-
-  <div class="book">
-    <img src="imgs/The Shining.jpg" alt="The Shining" />
-    <p>The Shining</p>
-  </div>
-</div>
-</div>
-
-    <!--Columns End-->
+        <h2>Stephen King Collection</h2>
+ 
+        <div class="book">
+          <img src="imgs/It.jpg" alt="It by Stephen King" />
+          <p>It</p>
+          <button class="add-to-cart-btn" onclick="addToCart({
+            id:'it-king', title:'It', author:'Stephen King',
+            cover:'imgs/It.jpg'
+          })">+ Add to Cart</button>
+        </div>
+ 
+        <div class="book">
+          <img src="imgs/The Shining.jpg" alt="The Shining" />
+          <p>The Shining</p>
+          <button class="add-to-cart-btn" onclick="addToCart({
+            id:'the-shining', title:'The Shining', author:'Stephen King',
+            cover:'imgs/The Shining.jpg'
+          })">+ Add to Cart</button>
+        </div>
+      </div>
+    </div>
+ 
     <footer>
-      <p class="white-p-text">
-        &copy;2012 Elephant Bookstore. All rights reserved.
-      </p>
-
+      <p class="white-p-text">&copy;2012 Elephant Bookstore. All rights reserved.</p>
       <h3>Contact</h3>
-      <p class="white-p-text">
-        <a href="tel:+12565550123">📞 (256) 555-0123</a>
-      </p>
-      <p class="white-p-text">
-        <a href="mailto:support@elephantbookstore.com">✉ Customer Service</a>
-      </p>
-      <p>
-        <a href="mailto:info@elephantbookstore.com">📧 info@elephantbookstore.com</a>
-      </p>
-
+      <p class="white-p-text"><a href="tel:+12565550123">📞 (256) 555-0123</a></p>
+      <p class="white-p-text"><a href="mailto:support@elephantbookstore.com">✉ Customer Service</a></p>
+      <p><a href="mailto:info@elephantbookstore.com">📧 info@elephantbookstore.com</a></p>
       <h3>Locations</h3>
       <p class="white-p-text">123 Main Street, Muscle Shoals, Alabama 35661</p>
-
       <p class="white-p-text"><a href="#">Privacy Policy</a></p>
     </footer>
+ 
+    <!-- Shared cart logic (adjust path to match your folder depth) -->
+    <script src="../cart.js"></script>
   </body>
 </html>
