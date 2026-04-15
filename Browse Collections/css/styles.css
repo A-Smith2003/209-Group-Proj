@@ -41,6 +41,12 @@ input {
   vertical-align: middle; /* Add this */
 }
 
+.cart {
+ padding-right: 10px;
+ width: 40px;
+ height: 20px;
+}
+
 /* Gold color search icon png styling: */
 .search-icon {
   width: 20px; /* Note: Your screenshot shows 20px, check for typos! */
