@@ -14,7 +14,7 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - [X] HTML
 - [X] CSS
 - [ ] JavaScript
-- [ ] Hosted on Github pages
+- [X] Hosted on Github pages
 
 ### Hosting
 - GitHub Pages
