@@ -26,6 +26,10 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 - Pages for the hyperlinks Categories and Best Sellers
 - Cart function with a hyperlink to a checkout page
 
+## Outside of Project Scope
+- Functioning Search bar
+- Payment processing
+
 # Meet The Developers
 ## Anna Smith
 - area of interest: Cybersecurity and web development
