@@ -238,3 +238,39 @@ footer {
   font-weight: bold;
 
 }
+
+/* resultTable stuffz */
+#resultContainer {
+    margin-top: 10px;
+    background: orange;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    width: 80%;
+    max-width: 700px;
+    color: white;
+}
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background-color: darkgray;
+}
+
+#resultTable th, #resultTable td {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+
+#resultTable th {
+    background-color: darkgrey;
+    color: white;
+    
+}
+
+#resultTable td {
+    background-color: darkgrey;
+}
