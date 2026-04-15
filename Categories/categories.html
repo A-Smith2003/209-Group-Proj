@@ -13,20 +13,21 @@
         alt="Elephant Bookstore Logo"
         class="logo"
       />
-
+ 
       <div class="nav-links">
         <a href="../index.html">Home</a>
         <a href="categories.html">Categories</a>
         <a href="../Best Sellers/index.html">Best Sellers</a>
         <a href="../Contact/Contact.html">Contact</a>
       </div>
-
+ 
       <!--Cart here-->
-      <a href="./Cart/Cart.html">
-      <img src="imgs/Cart.png" alt="carticon" class="cart"/>
+      <a href="./Cart/Cart.html" class="cart-icon-wrap">
+        <img src="imgs/Cart.png" alt="carticon" class="cart"/>
+        <span id="cart-badge" class="cart-badge" style="display:none">0</span>
       </a>
-
-
+ 
+ 
       <div class="search-container">
         <input type="text" placeholder="Search..." />
         <button type="submit" class="submit">
@@ -40,7 +41,7 @@
     </nav>
 <!--Columns grid start-->
     <div class="grid-container">
-
+ 
       <!--Column 1-->
       <div class="column1">
     <h2>Fiction</h2>
@@ -50,7 +51,7 @@
       <li>Historical Fiction</li>
     </ul>
   </div>
-
+ 
       <!--Column 2-->
        <div class="column2">
     <h2>Non-Fiction</h2>
@@ -60,7 +61,7 @@
       <li>Business</li>
     </ul>
   </div>
-
+ 
       <!--Column 3-->
       <div class="column3">
     <h2>Mysteries</h2>
@@ -70,15 +71,15 @@
       <li>Suspense</li>
     </ul>
   </div>
-
+ 
     </div>
-
+ 
     <!--Columns End-->
     <footer>
       <p class="white-p-text">
         &copy;2012 Elephant Bookstore. All rights reserved.
       </p>
-
+ 
       <h3>Contact</h3>
       <p class="white-p-text">
         <a href="tel:+12565550123">📞 (256) 555-0123</a>
@@ -89,11 +90,23 @@
       <p>
         <a href="mailto:info@elephantbookstore.com">📧 info@elephantbookstore.com</a>
       </p>
-
+ 
       <h3>Locations</h3>
       <p class="white-p-text">123 Main Street, Muscle Shoals, Alabama 35661</p>
-
+ 
       <p class="white-p-text"><a href="#">Privacy Policy</a></p>
     </footer>
+    <style>
+      .cart-icon-wrap { position: relative; display: inline-flex; align-items: center; }
+      .cart-badge {
+        position: absolute; top: -6px; right: 4px;
+        background: #be852c; color: #fff;
+        font-size: 11px; font-weight: 700;
+        width: 18px; height: 18px; border-radius: 50%;
+        display: none; align-items: center; justify-content: center;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+    <script src="../cart.js"></script>
   </body>
 </html>
