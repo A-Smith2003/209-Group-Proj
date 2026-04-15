@@ -19,6 +19,12 @@ nav {
   background-color: #0d1228;
 }
 
+.cart {
+ padding-right: 10px;
+ width: 40px;
+ height: 20px;
+}
+
 a {
   color: white;
   text-decoration: none;
