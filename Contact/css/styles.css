@@ -231,6 +231,44 @@ footer {
   justify-content: space-evenly; /* Center the text horizontally*/
 }
 
+/* Container to keep the button centered under the form */
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Spacing between Name, Email, Password, and Button */
+}
+
+/* Individual labels and inputs stacking */
+#contactForm label, 
+#contactForm input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+}
+
+#contactForm label {
+  font-weight: bold;
+  margin-bottom: -10px; 
+}
+
+#contactForm button {
+  padding: 10px 10px;        
+  background-color: #ffffff;  
+  color: #0d1228;          
+  border: none;              
+  border-radius: 5px;        
+  cursor: pointer;           
+  font-size: 16px;          
+  transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+  background-color: #b5b5b5;
+  color: #080b19;           
+  outline: 2px solid gold;
+}
+
 .input-label {
   display: block;
   text-align:center;
@@ -242,7 +280,7 @@ footer {
 /* resultTable stuffz */
 #resultContainer {
     margin-top: 10px;
-    background: orange;
+    background: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px black;
@@ -255,22 +293,26 @@ footer {
     width: 100%;
     border-collapse: collapse;
     color: white;
-    background-color: darkgray;
+    background-color: #0d1228;
 }
 
 #resultTable th, #resultTable td {
-    border: 3px solid black;
+    border: 3px solid #be852c;
     padding: 10px;
     text-align: center;
     color:white;
 }
 
 #resultTable th {
-    background-color: darkgrey;
+    background-color: #0d1228;
     color: white;
     
 }
 
 #resultTable td {
-    background-color: darkgrey;
+    background-color: #0d1228;
+}
+
+.spacing {
+  margin-top: 5px;
 }
