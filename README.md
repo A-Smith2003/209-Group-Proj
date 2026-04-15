@@ -13,7 +13,7 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 ### Languages
 - [X] HTML
 - [X] CSS
-- [ ] JavaScript
+- [X] JavaScript
 - [X] Hosted on Github pages
 
 ### Hosting
@@ -28,7 +28,9 @@ Founded in 2012, Elephant Bookstore is a beloved independent bookstore located i
 
 ## Outside of Project Scope
 - Functioning Search bar
-- Payment processing
+- Checkout and payment processing
+- Clickable links in categories
+- Clickable books
 
 # Meet The Developers
 ## Anna Smith
